@@ -11,8 +11,6 @@ body {
 
   html {
     width: 1000px;
-    flex-shrink: 0;
-    min-width: 70px;
   }
 
   header {
@@ -342,6 +340,7 @@ footer {
   padding-bottom: 8px;
   font-size: 20px;
 }
+
 
 
 
