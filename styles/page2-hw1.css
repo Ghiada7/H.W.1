@@ -1,0 +1,344 @@
+body {
+  background-image: url(../images/background1.JPG);
+  background-repeat: repeat;
+  font-family: "Comic Neue", cursive;
+  margin: 0;
+  font-size: 25px;
+  max-width: 100%;
+}
+
+@media (max-width: 414px){
+
+  html {
+    width: 1000px;
+  }
+
+  header {
+    width: 100% !important;
+  }
+
+  .welcome-text {
+    font-size: 90px !important;
+  }
+  .who-are-we-p {
+    font-size: 40px !important;
+  }
+
+  .img-class {
+    width: 80px;    /* or any size you like */
+    height: auto;   /* keeps the image proportions */
+    object-fit: contain;
+  }
+
+  .start-text {
+    width: 100%;
+  }
+
+
+  .General {
+    width: 1000px;
+    font-size: 35px;
+  }
+
+
+  .rules-div {
+    width: 980px;
+    font-size: 34px;
+  }
+
+  .three-parts {
+    width: 1000px;
+  }
+
+  .work-table {
+    width: 1000px;
+  }
+
+  .links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+}
+
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(118, 95, 199);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.cafe-name {
+font-family: "Comic Neue", cursive;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.cafe-logo {
+display: flex;
+justify-content: center;
+}
+
+.img-class {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.location-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /*width: 50px;
+  height: 60px; */
+}
+
+.location-logo-class {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+  width: 55px;
+ /* width: 100%;
+  border-radius: 50px;
+  margin: 20px 20px -20px -20px; */
+}
+
+.General {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 100px;
+
+}
+.start-text {
+  background-color: rgb(233, 222, 248);
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.welcome-text {
+  color: rgb(108, 102, 199);
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.who-are-we-p {
+  font-size: 25px;
+  margin: 0 30px;
+}
+
+.actual-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 400px 100px 200px 100px;
+  padding: 60px 0;
+
+  background-color: white;
+  /* margin: 400px 550px 0 50px; */
+  border-radius: 8px;
+  border-color: rgb(193, 165, 242);
+  border-style: double;
+  border-width: 7px;
+}
+
+.h1-menu-title {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: rgb(164, 130, 243);
+}
+
+.part-titles {
+  margin-bottom: -5px;
+}
+
+dt {
+  color: Black;
+}
+
+dd {
+  color: rgb(158, 125, 238);
+  font-size: 17px;
+  margin-bottom: 33px;
+  margin-left: -3px;
+}
+
+.rules-div {
+  background-color: white;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  padding: 60px 0 160px 20px;
+}
+
+.rules-title {
+  display: flex;
+  text-align: start;
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.three-parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 200px 0;
+  background-color: rgb(98, 73, 191);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.our {
+  background-color: white;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+.our-titles {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*.a-menu,*/ .a-apply {
+  padding: 30px;
+  border: 0;
+  border-radius: 30px;
+  background-color: white;
+  text-decoration: none;
+  margin: 100px 0 90px 0;
+}
+
+
+.work-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  padding: 80px 0 90px 0;
+}
+
+.table-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  width: 900px;
+}
+
+td, th {
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(220, 202, 244);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.insta-logo {
+  width: 50px;
+}
+
+.facebook-logo {
+  width: 48px;
+}
+
+.footer-title {
+  color: rgb(100, 72, 193);;
+  padding-top: 15px;
+  font-size: 28px;
+}
+
+.footer-discrption {
+  color: rgb(151, 150, 150);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+

@@ -1,0 +1,45 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: rgb(255, 194, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+img {
+  width: 100px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+p {
+  margin-top: -10px;
+  color: gray;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(253, 236, 238);
+  text-shadow: 0 0 5px hotpink, 0 0 5px hotpink,0 0 5px hotpink;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-shadow: 0 0 5px rgb(250, 51, 151), 0 0 5px rgb(250, 51, 151),0 0 5px rgb(250, 51, 151);
+}
